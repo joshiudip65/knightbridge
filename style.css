@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+.navv {
+  color: black;
+  padding: 20px;
+}
+.formscroll {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.form-div {
+  font-size: 0.7rem;
+}
+input::placeholder {
+  font-size: 0.8rem;
+}
+textarea::placeholder {
+  font-size: 0.8rem;
+}
+.logo1 {
+  font-size: 1.5rem;
+  display: flex;
+}
+.h2-information {
+  font-size: 1.1rem;
+}
+.li-list {
+  font-size: 0.8rem;
+}
+.alba {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.alba .logo1 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  /* padding-left: 200px; */
+}
+.menu-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menus {
+  list-style: none;
+  display: flex;
+  gap: 1.7rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.menu-div a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.1s ease-in-out;
+}
+
+.menu-div a:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  text-decoration-color: black;
+  font-weight: bold;
+}
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call .call-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 12px;
+  background-color: black;
+  color: white;
+}
+.tagg {
+  font-size: 0.8rem;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.headtext {
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+}
+.recapfeatures {
+  gap: 1.5rem;
+  display: flex;
+  align-items: left;
+  padding-left: 0;
+}
+.recapfeatures li {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.lowas {
+  font-weight: 600;
+  font-size: 18;
+  width: fit-content;
+}
+.shortdesc {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+  width: 70%;
+}
+
+.videos {
+  object-fit: cover;
+  object-position: center;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  height: auto;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  width: 100%;
+}
+
+hr {
+  border-style: ridge;
+  border-width: 1px;
+  border-color: black;
+}
+
+.displayimg {
+  object-fit: cover;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+}
+
+.bordt {
+  border-top: 3px solid black;
+  position: sticky;
+}
+
+.imgreg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.submit-button {
+  justify-content: center;
+  display: flex;
+}
+.sub-btn {
+  padding: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: black;
+  color: #f8f9fa;
+  font-size: large;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid black;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+.infoheads {
+  padding-left: 18px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.infotext {
+  padding-left: 18px;
+  font-size: 0.8rem;
+  margin-bottom: 1.4rem;
+}
+
+.info {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+}
+
+.bulletlist {
+  list-style-type: disc;
+}
+.haveanyquestions {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+  padding-top: 20px;
+}
+/* floor pricing css started */
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.bed-plan {
+  padding: 5px 18px;
+  border: none;
+  background-color: #f8f9fa;
+}
+.bed-plan:hover {
+  background-color: black;
+  color: white;
+}
+.floor-text {
+  font-weight: 700;
+}
+/* floor price ended*/
+
+.img-rounded {
+  border-radius: 1.5rem;
+  height: 30vh;
+  object-fit: cover;
+  width: 100%;
+}
+.gallery {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.mapstext {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: large;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+.btn-primary {
+  color: white;
+  font-size: 1rem;
+  background-color: black;
+}
+
+.text-size-main {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.text-size {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-size: small;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+}
+.h1-bold {
+  font-weight: bold;
+}
+
+.points {
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2cm;
+  font-weight: 200;
+}
+
+.inp {
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(241, 243, 250);
+}
+.btn-primary {
+  justify-content: center;
+}
+.btn-primary:hover {
+  background-color: rgb(41, 40, 40);
+}
+
+.foot-up-img {
+  opacity: 0.25;
+  margin-bottom: -5px;
+  overflow: hidden;
+  width: 100% !important;
+}
+.points {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+.sub-headings {
+  font-family: "Times New Roman", Times, serif;
+
+  font-weight: 600;
+}
+.img-icon {
+  height: fit-content;
+  margin-right: 1rem;
+}
+.project-location {
+  margin-bottom: 1rem;
+}
+.locationP {
+  font-size: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+.p-text {
+  font-size: 0.9rem;
+  word-spacing: 1rem;
+}
+
+.p-text-sm {
+  font-size: 0.6rem;
+  word-spacing: 0.6rem;
+}
+.line2 {
+  width: 100%;
+  height: 10px;
+  color: red;
+}
+.connect {
+  width: fit-content;
+  margin: 0 !important;
+  padding: 0 !important;
+}
