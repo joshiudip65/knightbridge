@@ -6,13 +6,10 @@
 }
 .navv {
   color: black;
-  padding: 20px;
+  padding: 0;
+  margin: 0;
 }
-.formscroll {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
+
 .form-div {
   font-size: 0.7rem;
 }
@@ -22,10 +19,18 @@ input::placeholder {
 textarea::placeholder {
   font-size: 0.8rem;
 }
-.logo1 {
-  font-size: 1.5rem;
+/* .logo1 {
+  FOR TEXT TYPE LOGO
+  font-size: 2rem;
   display: flex;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+.logo-img {
+  height: 70px;
+  width: auto;
 }
+
 .h2-information {
   font-size: 1.1rem;
 }
@@ -64,20 +69,24 @@ textarea::placeholder {
   text-decoration: none;
 }
 
-.menu-div a {
+/* .menu-div a {
   color: black;
   text-decoration: none;
   padding: 10px;
-  transition: color 0.1s ease-in-out;
+} */
+
+/* .menu-div a:hover {
+  text-decoration: underline green;
+  text-underline-offset: 3px;
+} */
+
+.menu-div .navbar-nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 4px;
 }
 
-.menu-div a:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 2px;
-  text-decoration-color: black;
-  font-weight: bold;
-}
 .call {
   display: flex;
   justify-content: center;
@@ -103,9 +112,9 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .headtext {
-  font-size: 4rem;
-  font-weight: 800;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  font-weight: 600;
+  /* font-family: "Times New Roman", Times, serif; */
 }
 .recapfeatures {
   gap: 1.5rem;
@@ -126,9 +135,10 @@ body {
 }
 .shortdesc {
   display: block;
-  font-family: "Times New Roman", Times, serif;
   font-weight: 200;
   width: 70%;
+  opacity: 1;
+  font-weight: 400;
 }
 
 .videos {
@@ -159,28 +169,33 @@ button[type="submit"] {
   margin-top: 10px;
 }
 
-.bordt {
+.card {
   border-top: 3px solid black;
-  position: sticky;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 400px;
 }
 
-.imgreg {
-  width: 50%;
-  display: flex;
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 40%;
+  height: auto;
+}
+
+.card-text-1 {
   justify-content: center;
+  display: flex;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
-.submit-button {
+.card-text-2 {
   justify-content: center;
   display: flex;
+  font-weight: 300;
+  font-size: 1rem;
 }
-.sub-btn {
-  padding: 5px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background-color: black;
-  color: #f8f9fa;
-  font-size: large;
-}
+
 .one {
   display: flex;
   flex-direction: column;
@@ -237,6 +252,7 @@ button[type="submit"] {
 .floor-text {
   font-weight: 700;
 }
+
 /* floor price ended*/
 
 .img-rounded {
@@ -267,6 +283,7 @@ body {
   margin-bottom: 20px;
   opacity: 0.8;
 }
+
 .btn-primary {
   color: white;
   font-size: 1rem;
